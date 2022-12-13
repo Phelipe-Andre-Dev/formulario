@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main form img {
+    width: 20px;
+}
+
+body{
+    background-color: rgb(43, 42, 42);
+    color: white;
+    font-weight: 500;
+    display: flex;
+    min-width: 100vw;
+}
+
+main {
+    
+    background-color: rgb(58, 57, 57);
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 4rem;
+    margin: 80px;
+    margin-left: 450px;
+    border-radius: 10px ;
+    width: 350px;
+    margin-bottom: 20px;
+
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+
+main form label {
+    flex-direction: column;
+    display: flex;
+    font-size: 1.2rem;
+    
+
+
+}
+
+main input{
+    height: 30px;
+    width: 200px;
+    border-radius: 05px;
+    border: 2px solid rgb(41, 41, 41);
+}
+
+main button{
+    background-color: rgb(20, 20, 189);
+    width: 110px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    width: 200px;
+    font-size: 1.2rem;
+    
+}
+
+main button:hover {
+    background-color: rgb(5, 5, 139);
+}
+
+.form-control i {
+    visibility: hidden;
+}
+
+
+
+main small{
+  visibility: hidden;
+}
+
+.form-control.success input{
+    border: 2px solid green;
+}
+
+.form-control.error input{
+    border: 2px solid rgb(248, 42, 42);
+}
+
+.form-control.success i .img-success {
+    visibility: visible;
+}
+
+.form-control.error i .img-error {
+    visibility: visible;
+}
+
+.form-control.error small{
+    visibility: visible;
+    color:rgb(248, 42, 42) ;
+}
+
+@media only screen and (max-width: 805px){
+    h1{
+        font-size: 2rem;
+    }
+
+    main label {
+        font-size: 0.9rem;
+    }
+
+    main{
+        margin: auto;
+        margin-top: 90px;
+    }
+}
+
+
